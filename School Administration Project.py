@@ -10,7 +10,7 @@ def write(info_list):
 condition =  True
 
 while(condition):
-    student_info = input("Enter Student Info in Format (Name, Age, Contact Number, E-Mail ID: ")
+    student_info = input("Enter Student Info in Format (Name, Age, Contact Number, E-Mail ID): ")
     student_info_list = student_info.split(" ")
 
     write(student_info_list)
